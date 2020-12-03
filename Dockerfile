@@ -25,5 +25,5 @@ RUN sed -i '$a \SocksPort 9050\nSocksPort 9052\nSocksPort 9053\nSocksPort 9054' 
     && /etc/init.d/tor restart
 
 # Install Puppeteer under /node_modules so it's available system-wide
-ADD package.json package-lock.json /
+ADD package.json /
 RUN npm install
