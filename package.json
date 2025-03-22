@@ -1,12 +1,13 @@
 {
   "name": "docker-puppeteer-tor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Docker Image with Puppeteer through Tor",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "start:local": "node index.js local"
   },
   "dependencies": {
-    "puppeteer": "^6.0.0"
+    "puppeteer": "^24.4.0"
   }
 }
